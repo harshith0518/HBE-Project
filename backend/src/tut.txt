@@ -1,0 +1,11 @@
+nest g module users  --> creates the new module (model in django)
+nest g res cities ---> more advanced to create the module
+
+
+
+
+--------------------- DATABASE ESSENTIALS -----------------------
+important to do if we create db using the code
+
+nestjs-db=# GRANT ALL ON SCHEMA public TO nestuser;
+nestjs-db=# GRANT ALL PRIVILEGES ON DATABASE "nestjs-db" TO nestuser;
